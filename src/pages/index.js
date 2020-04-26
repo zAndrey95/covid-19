@@ -102,8 +102,6 @@ const IndexPage = () => {
     geoJsonLayers.addTo(map);
   }
 
-  
-
   const mapSettings = {
     center: CENTER,
     defaultBaseMap: 'OpenStreetMap',
@@ -114,7 +112,7 @@ const IndexPage = () => {
   return (
     <Layout pageName="home">
       <Helmet>
-        <title>Home Page</title>
+        <title>COVID-19</title>
       </Helmet>
 
       <Map {...mapSettings} />

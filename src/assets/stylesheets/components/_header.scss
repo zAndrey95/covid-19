@@ -6,7 +6,7 @@ header {
 
   .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     height: 2.5em;
     line-height: 2.5em;
   }
@@ -32,6 +32,18 @@ header {
     font-size: 1.2em;
     font-weight: bold;
     margin: 0;
+  }
+
+  h2 {
+    font-family: serif;
+    font-size: 2em;
+    margin: 0;
+    color: grey;
+  }
+
+  img {
+    margin: 0;
+    width: 50px;
   }
 
 }
